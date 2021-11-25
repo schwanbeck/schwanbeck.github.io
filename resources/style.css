@@ -2,7 +2,7 @@
       display:table;
     }
       .container > div {
-        width:100%;
+        width:50%;
         display:table-cell;
       }
         .container > div p {
@@ -13,5 +13,5 @@
           horiz-align: right;
         }
         .container .right {
-          text-align:right;
+          text-align:left;
         }
