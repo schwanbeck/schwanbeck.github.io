@@ -1,151 +1,178 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>CDInfect Meeting - Chemotaxis</title>
+    <title>CDInfect Meeting - Chemotaxis</title>
 
-		<link rel="stylesheet" href="reveal.js/dist/reset.css">
-		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
-		<link rel="stylesheet" href="reveal.js/dist/theme/white.css">
+    <link rel="stylesheet" href="reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/white.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background="#222" data-background-video="resources/title_vid.webm" data-background-size="contain" data-background-video-loop="1">
-				<h3 style="color:darkorange; text-shadow: 2px 2px 2px black">
-CDInfect Meeting<br>
-</h3>
-<h2  style="color:darkorange; text-shadow: 2px 2px 2px black">
-    Chemotaxis of<br><em>Clostridioides difficile</em>
-    
-</h2>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-background="#222" data-background-video="resources/title_vid.webm" data-background-size="contain"
+                 data-background-video-loop="1">
+            <h3 style="color:darkorange; text-shadow: 2px 2px 2px black">
+                CDInfect Meeting<br>
+            </h3>
+            <h2 style="color:darkorange; text-shadow: 2px 2px 2px black">
+                Chemotaxis of<br><em>Clostridioides difficile</em>
 
-    <p style="text-shadow: 1px 1px 1px black; margin-top: 10%">
-	    PI: Prof. Uwe Groß<br>
-	    PI: Dr. Wolfgang Bohne<br>
-	    Dr. Julian Schwanbeck</p>
-<p style="text-shadow: 1px 1px 1px black; margin-top: 5%">
-    <br>2. 12. 2020, Göttingen
-</p></section>
-				<section>
-					<h3>Introduction: Initial Aim of the Project</h3>
-					<div style="float: left; width: 40%; font-size: .8em; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
-    <ul style="display: table-cell; vertical-align: middle; font-size: .8em;">
-	    <li style="margin-bottom: .45em">Almost all sequenced <em>C</em>. <em>difficile</em> strains possess one chemoreceptor and corresponding chemotaxis machinery
-</li>
-<li style="margin-bottom: .45em">
-	The main chemotaxis machinery (MCP, CheY, CheW) is needed for signal sensing and transduction
-</li>
-        <li style="margin-bottom: .45em">Flagellar motility is a requirement for chemotaxis</li>
-        <li style="margin-bottom: .45em">Detailed analysis of chemotactic behavior requires observation of single cells
-</li>
-<ul><li style="font-size: .8em; margin-bottom: .45em">For example “run and tumble” in <em>E</em>. <em>coli</em></li></ul>
-    </ul>
-</div>
-				</section>
-				<section data-background="#222" data-background-video="resources/twitching_background.webm" data-background-size="contain" data-background-video-loop="1">
-				<h3 style="color: darkorange; text-shadow: 1px 1px 1px black">Motility in liquid medium</h3>
-					<div  class="fragment" style="margin: auto; width: 1000px">
-    <div style="float: left; width: 60%">
-        <video data-autoplay width="100%" height="auto"
-        ><source src="resources/r20_twitch.webm" type="video/webm"></video>
+            </h2>
+
+            <p style="text-shadow: 1px 1px 1px black; margin-top: 10%">
+                PI: Prof. Uwe Groß<br>
+                PI: Dr. Wolfgang Bohne<br>
+                Dr. Julian Schwanbeck</p>
+            <p style="text-shadow: 1px 1px 1px black; margin-top: 5%">
+                <br>2. 12. 2020, Göttingen
+            </p></section>
+        <section>
+            <h3>Introduction: Initial Aim of the Project</h3>
+            <div style="float: left; width: 40%; font-size: .8em; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
+                <ul style="display: table-cell; vertical-align: middle; font-size: .8em;">
+                    <li style="margin-bottom: .45em">Almost all sequenced <em>C</em>. <em>difficile</em> strains possess
+                        one chemoreceptor and corresponding chemotaxis machinery
+                    </li>
+                    <li style="margin-bottom: .45em">
+                        The main chemotaxis machinery (MCP, CheY, CheW) is needed for signal sensing and transduction
+                    </li>
+                    <li style="margin-bottom: .45em">Flagellar motility is a requirement for chemotaxis</li>
+                    <li style="margin-bottom: .45em">Detailed analysis of chemotactic behavior requires observation of
+                        single cells
+                    </li>
+                    <ul>
+                        <li style="font-size: .8em; margin-bottom: .45em">For example “run and tumble” in <em>E</em>.
+                            <em>coli</em></li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+        <section data-background="#222" data-background-video="resources/twitching_background.webm"
+                 data-background-size="contain" data-background-video-loop="1">
+            <h3 style="color: darkorange; text-shadow: 1px 1px 1px black">Motility in liquid medium</h3>
+            <div class="fragment" style="margin: auto; width: 1000px">
+                <div style="float: left; width: 60%">
+                    <video data-autoplay width="100%" height="auto"
+                    >
+                        <source src="resources/r20_twitch.webm" type="video/webm">
+                    </video>
+                </div>
+                <div style="float: right; width: 40%; text-shadow: 1px 1px 1px black">
+                    <ul>
+                        <li>No noticeable<br>displacement</li>
+                    </ul>
+                    <p><br></p>
+                    <ul>
+                        <li>Very high rate<br>of trembling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section data-background-transition="none" data-background-size="20%" data-background-image="resources/pvp.png"
+                 data-background-position="center" data-background-repeat="no-repeat" data-background="#222">
+
+            <h3 style="color: darkorange; text-shadow: 1px 1px 1px black">Motility with Polyvinylpyrrolidone</h3>
+            <p>PVP is a high molecular weight polymer</p>
+            <video data-autoplay class="fragment" width="auto" height="500px" autoplay loop controls>
+                <source src="resources/motile_liquid.webm">
+            </video>
+
+        </section>
+
+
+        <section data-background="#222" data-background-video="resources/annot_vid.webm" data-background-size="contain"
+                 data-background-video-loop="1"></section>
+
+        <section>
+            <h4><em>Clostridioides difficile</em> single cell swimming strategy</h4>
+            <div style="position: relative; height: 700px; left: -550px; margin-top: -3%">
+                <img src="resources/Figure_1.png" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+            </div>
+        </section>
+        <section>
+            <div style="position: relative; height: 700px; left: -470px; margin-top: 0%">
+                <img src="resources/back_track.png" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+                <img src="resources/back_track_dist.png" class="fragment" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+            </div>
+        </section>
+        <section>
+            <div style="position: relative; height: 700px; left: -600px; margin-top: 0%">
+                <img src="resources/fig2.png" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+            </div>
+        </section>
+
+        <section>
+            <div style="position: relative; height: 720px; left: -612px;">
+                <img src="resources/mot_model1.png" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+                <img src="resources/mot_model2.png" class="fragment" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+                <img src="resources/mot_model3.png" class="fragment" alt
+                     style="position: absolute; background:none; border:none; box-shadow:none;">
+            </div>
+        </section>
+
+        <section>
+            <h3>Future Perspectives and Collaborations</h3>
+            <ul>
+                <li>Establish chemotaxis assay on a single cell basis, for example microfluidic based assay
+                </li>
+                <ul>
+                    <li style="font-size: .8em; margin-bottom: .45em">Test candidate substrates <em>(from metabolomic
+                        studies in the consortium)</em> for their influence in chemotaxis
+                    </li>
+                </ul>
+                <li>Generation of knock-out mutants for chemotaxis genes and test for chemotaxis defects</li>
+                <ul>
+                    <li style="font-size: .8em; margin-bottom: .45em">Test mutants from the Consortium for defects in
+                        chemotaxis
+                    </li>
+                </ul>
+                <li>
+                    If prior work is promising confirm hypothesis in an animal model
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Thank you for your Attention & Cooperation</h3>
+
+        </section>
     </div>
-    <div style="float: right; width: 40%; text-shadow: 1px 1px 1px black">
-        <ul>
-            <li>No noticeable<br>displacement</li>
-        </ul>
-        <p> <br> </p>
-        <ul>
-            <li>Very high rate<br>of trembling</li>
-        </ul>
-    </div>
 </div>
-				</section>
 
-    <section data-background-transition="none" data-background-size="20%" data-background-image="resources/pvp.png" data-background-position="center" data-background-repeat="no-repeat" data-background="#222">
-    	
-    	<h3 style="color: darkorange; text-shadow: 1px 1px 1px black">Motility with Polyvinylpyrrolidone</h3>
-<p>PVP is a high molecular weight polymer</p>
-<video data-autoplay class="fragment" width="auto" height="500px" autoplay loop controls><source src="resources/motile_liquid.webm"></video>
-
-    </section>
-
-
-			
-				<section data-background="#222" data-background-video="resources/annot_vid.webm" data-background-size="contain" data-background-video-loop="1"></section>
-
-<section>
-	<h4><em>Clostridioides difficile</em> single cell swimming strategy</h4>
-	<div style="position: relative; height: 700px; left: -550px; margin-top: -3%">
-    <img src="resources/Figure_1.png" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-</div>
-</section>
-<section>
-	<div style="position: relative; height: 700px; left: -470px; margin-top: 0%">
-    <img src="resources/back_track.png" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-    <img src="resources/back_track_dist.png" class="fragment" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-</div>
-</section>
-<section>
-	<div style="position: relative; height: 700px; left: -600px; margin-top: 0%">
-    <img src="resources/fig2.png" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-</div>
-</section>
-
-<section>
-	<div style="position: relative; height: 720px; left: -612px;">
-    <img src="resources/mot_model1.png" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-    <img src="resources/mot_model2.png" class="fragment" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-    <img src="resources/mot_model3.png" class="fragment" alt style="position: absolute; background:none; border:none; box-shadow:none;">
-</div>
-</section>
-
-<section>
-	<h3>Future Perspectives and Collaborations</h3>
-	<ul>
-		<li>Establish chemotaxis assay on a single cell basis, for example microfluidic based assay
-</li>
-		<ul><li style="font-size: .8em; margin-bottom: .45em">Test candidate substrates <em>(from metabolomic studies in the consortium)</em> for their influence in chemotaxis
-</li></ul>
-		<li>Generation of knock-out mutants for chemotaxis genes and test for chemotaxis defects</li>
-		<ul><li style="font-size: .8em; margin-bottom: .45em">Test mutants from the Consortium for defects in chemotaxis</li></ul>
-		<li>
-If prior work is promising confirm hypothesis in an animal model
-</li>
-	</ul>
-</section>
-<section>
-	<h1>Thank you, Cera, for your Attention!</h1>
-</section>
-			</div>
-		</div>
-
-		<script src="reveal.js/dist/reveal.js"></script>
-		<script src="reveal.js/plugin/notes/notes.js"></script>
-		<script src="reveal.js/plugin/markdown/markdown.js"></script>
-		<script src="reveal.js/plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-            			progress: true,
-			        history: true,
-			        center: true,
-				slideNumber: 'h.v',
-				width:1244,
-				height:700,
-				transition: 'slide',
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: 'h.v',
+        width: 1244,
+        height: 700,
+        transition: 'slide',
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+</script>
+</body>
 </html>
