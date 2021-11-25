@@ -11,6 +11,7 @@
         }
         .container .left {
           vertical-align:top;
+          horiz-align: right;
         }
         .container .right {
           text-align:right;
