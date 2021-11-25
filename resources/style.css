@@ -2,7 +2,7 @@
       display:table;
     }
       .container > div {
-        width:50%;
+        width:100%;
         display:table-cell;
       }
         .container > div p {
