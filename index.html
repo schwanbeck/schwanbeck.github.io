@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="reveal.js/dist/theme/white.css">
 
+    <!-- Additional css stuff -->
+    <link rel="stylesheet" href="resources/style.css">
+
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+
 </head>
 <body>
 <div class="reveal">
@@ -25,17 +29,25 @@
                 Chemotaxis of<br><em>Clostridioides difficile</em>
 
             </h2>
-
-            <p style="text-shadow: 1px 1px 1px black; margin-top: 10%">
-                PI: Prof. Uwe Groß<br>
-                PI: Dr. Wolfgang Bohne<br>
-                Dr. Julian Schwanbeck</p>
-            <p style="text-shadow: 1px 1px 1px black; margin-top: 5%">
-                <br>2. 12. 2020, Göttingen
-            </p></section>
+            <div style="margin-top: 10%; width: 1000px">
+                <div style="float: left; width: 30%">
+                    <img src="resources/UMG.png" alt
+                     style="background:none; border:none; box-shadow:none;">
+                </div>
+                <div style="float: right; width: 70%; text-shadow: 1px 1px 1px black">
+                    <p style="text-shadow: 1px 1px 1px black; ">
+                        PI: Prof. Uwe Groß<br>
+                        PI: Dr. Wolfgang Bohne<br>
+                        Dr. Julian Schwanbeck</p>
+                    <p style="text-shadow: 1px 1px 1px black; margin-top: 5%">
+                        <br>2. 12. 2020, Göttingen
+                    </p>
+                </div>
+            </div>
+            </section>
         <section>
-            <h3>Introduction: Initial Aim of the Project</h3>
-            <div style="float: left; width: 40%; font-size: .8em; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
+            <h3  style="color:darkorange; ">Introduction: Initial Aim of the Project</h3>
+            <div style="float: left; width: 60%; font-size: .8em; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
                 <ul style="display: table-cell; vertical-align: middle; font-size: .8em;">
                     <li style="margin-bottom: .45em">Almost all sequenced <em>C</em>. <em>difficile</em> strains possess
                         one chemoreceptor and corresponding chemotaxis machinery
@@ -53,14 +65,17 @@
                     </ul>
                 </ul>
             </div>
+            <div style="float: right; width: 40%; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
+                <img src="resources/Ecoli_Tumbling.png" alt style="background:none; border:none; box-shadow:none;">
+            </div>
+
         </section>
         <section data-background="#222" data-background-video="resources/twitching_background.webm"
                  data-background-size="contain" data-background-video-loop="1">
             <h3 style="color: darkorange; text-shadow: 1px 1px 1px black">Motility in liquid medium</h3>
             <div class="fragment" style="margin: auto; width: 1000px">
                 <div style="float: left; width: 60%">
-                    <video data-autoplay width="100%" height="auto"
-                    >
+                    <video data-autoplay width="100%" height="auto">
                         <source src="resources/r20_twitch.webm" type="video/webm">
                     </video>
                 </div>
@@ -147,7 +162,58 @@
         </section>
         <section>
             <h3>Thank you for your Attention & Cooperation</h3>
+            <div style="width: 50%">
+                <table>
+                    <tr>
+                        <td align="left" style="vertical-align: top;">
+                            <img src="resources/DSMZ.jpg" alt style="background:none; border:none; box-shadow:none;">
+                        </td>
+                        <td align="left" style="vertical-align: top;">
+                            <img src="resources/GAU.png" alt style="background:none; border:none; box-shadow:none;">
+                        </td>
+                        <td align="left" style="vertical-align: top;">
+                            <img src="resources/UMG.png" alt style="background:none; border:none; box-shadow:none;">
+                        </td>
 
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="container" style="width: 50%">
+                <div class="left">
+                    <img src="resources/DSMZ.jpg" alt style="background:none; border:none; box-shadow:none;">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>Prof. Jörg Overmann</li>
+                        <li>Dr. Thomas Riedel</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" style="width: 50%">
+                <div class="left">
+                    <img src="resources/GAU.png" alt style="background:none; border:none; box-shadow:none;">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>Prof. Rolf Daniel</li>
+                        <li>Dr. Heiko Liesegang</li>
+                        <li>Dr. Michael Hoppert</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" style="width: 50%">
+                <div class="left">
+                    <img src="resources/UMG.png" alt style="background:none; border:none; box-shadow:none;">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>Ines Oehmig</li>
+                        <li>Dr. Andreas Zautner</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </div>
 </div>
