@@ -16,3 +16,14 @@
           text-align:left;
           vertical-align: top;
         }
+
+.umgsquares {
+  float: left;
+  width: .2em;
+  height: .2em;
+  background-color: none;
+  box-shadow:
+  0em .21em 0em #999,
+  0em .48em 0em #999,
+  0em .75em 0em #999; 
+}
