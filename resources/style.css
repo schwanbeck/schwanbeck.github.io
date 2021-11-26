@@ -18,12 +18,11 @@
         }
 
 .umgsquares {
-  float: left;
+  display: inline-block;
   width: .2em;
   height: .2em;
-  background-color: none;
+  background-color: #999;
   box-shadow:
-  0em .21em 0em #999,
-  0em .48em 0em #999,
-  0em .75em 0em #999; 
+  0em -.55em 0em #999,
+  0em -.27em 0em #999;
 }
