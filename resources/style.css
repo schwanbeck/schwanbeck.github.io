@@ -21,8 +21,8 @@
   display: inline-block;
   width: .2em;
   height: .2em;
-  background-color: #999;
+  background-color: #bbb;
   box-shadow:
-  0em -.55em 0em #999,
-  0em -.27em 0em #999;
+  0em -.52em 0em #bbb,
+  0em -.26em 0em #bbb;
 }
