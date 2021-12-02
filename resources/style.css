@@ -16,3 +16,13 @@
           text-align:left;
           vertical-align: top;
         }
+
+.umgsquares {
+  display: inline-block;
+  width: .2em;
+  height: .2em;
+  background-color: #bbb;
+  box-shadow:
+  0em -.52em 0em #bbb,
+  0em -.26em 0em #bbb;
+}
