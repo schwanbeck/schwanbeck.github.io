@@ -17,6 +17,11 @@
           vertical-align: top;
         }
 
+.reveal .slide-number {
+  font-size: 24pt;
+  color: darkorange;
+}
+
 .umgsquares {
   display: inline-block;
   width: .2em;
