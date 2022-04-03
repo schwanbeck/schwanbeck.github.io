@@ -18,8 +18,25 @@
         }
 
 .reveal .slide-number {
-  font-size: 24pt;
+  position: absolute;
+  display: block;
+  right: 8px;
+  bottom: 8px;
+  z-index: 31;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1;
   color: darkorange;
+  background-color: rgba( 0, 0, 0, 0.4 );
+  padding: 5px;
+}
+
+.reveal .slide-number a {
+  color: currentColor;
+}
+
+.reveal .slide-number-delimiter {
+  margin: 0 3px;
 }
 
 .umgsquares {
