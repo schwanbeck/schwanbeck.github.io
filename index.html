@@ -39,13 +39,13 @@
         </section>
         <section>
             <p style="font-size: 2em; color: darkorange;"><em>Clostridioides difficile</em></p>
-            <div style="float:right; alignment: right; width: 60%">
+            <div style="float:right; alignment: right; width: 50%">
                 <img src="resources/cdiff_bright_bg.png" alt style="background:none; border:none; box-shadow:none; width:70%">  <!-- 10px solid transparent; -->
                 <p style="font-size: .5em;">Picture in collaboration with PD Dr. Hoppert</p>
             </div>
 
-            <div style="float: left; width: 40%; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
-                <ul style="display: table-cell; vertical-align: middle; ">
+            <div style="float: left; width: 50%; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
+                <ul style="display: table-cell; vertical-align: middle; font-size: .9em">
                     <li style="margin-bottom: .25em">Formerly <em>Clostridium&nbsp;difficile</em></li>
                     <li style="margin-bottom: .25em">Firmicutes</li>
                     <li style="margin-bottom: .25em">Obligate anaerobe</li>
@@ -100,17 +100,19 @@
         </section>
 
         <section>
-            <section>`
+            <section>
                 <h3  style="color:darkorange; ">Introduction: the treatment</h3>
                 <!-- Antibiotics + Cdiff + spores = ??? = Profit
                      Show header of FDX paper
                 -->
                 <p>
+                    The best treatment is prevention<br>
                     Current common treatment options of CDI are:
                     <ul>
                         <li>Metronidazole</li>
                         <li>Vancomycin</li>
                         <li>Fidaxomicin</li>
+                        <li>Feacal microbial transplant</li>
                     </ul>
                 </p>
                 <aside class="notes">
@@ -137,33 +139,48 @@
         </section>
 
         <section>
-            <h3  style="color:darkorange; ">Introduction: Motility</h3>
-            <!-- Gram neg, peritrichous flagella, ..., spore forming -->
-            <div style="float: left; width: 55%; display: table; font-size: .75em; justify-content: center; height: 450px; margin-left: 20px">
-                <ul style="display: table-cell; vertical-align: middle; ">
-                    <li style="margin-bottom: .45em">Almost all sequenced <em>C</em>. <em>difficile</em> strains possess
-                        one chemoreceptor and corresponding chemotaxis machinery
-                    </li>
-                    <li style="margin-bottom: .55em">
-                        The main chemotaxis machinery (MCP, CheA, CheY) is needed for signal sensing and transduction
-                    </li>
-                    <li style="margin-bottom: .55em">Flagellar motility is a requirement for chemotaxis</li>
-                    <li style="margin-bottom: .55em">Detailed analysis of chemotactic behavior requires observation of
-                        single cells
-                        <ul>
-                            <li style="font-size: .9em; margin-bottom: .45em">For example “run and tumble” in <em>E</em>.
-                                <em>coli</em></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div style="float: right; width: 40%; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
-                <img src="resources/chemtaxsys_light.png" alt style="background:none; border:none; box-shadow:none; height: 200px">
-                <img src="resources/Ecoli_Tumbling.png" alt style="background:none; border:none; box-shadow:none; height: 250px">
-            </div>
-            <aside class="notes">
-                immotile nicht erwähnen
-            </aside>
+            <section>
+                <h3  style="color:darkorange; ">Introduction: Motility</h3>
+                <!-- Gram neg, peritrichous flagella, ..., spore forming -->
+                <div style="float: left; width: 55%; display: table; font-size: .75em; justify-content: center; height: 450px; margin-left: 20px">
+                    <ul style="display: table-cell; vertical-align: middle; ">
+                        <li style="margin-bottom: .55em">
+                            Motility is used by bacteria for various reasons
+                            <ul>
+                                <li style="font-size: .9em; margin-bottom: .45em">To explore for places for colonisation</li>
+                                <li style="font-size: .9em; margin-bottom: .45em">As a means for dispersal into the environment</li>
+                                <li style="font-size: .9em; margin-bottom: .45em">In conjunction with chemotaxis for directed motility</li>
+                            </ul>
+                        </li>
+                        <li style="margin-bottom: .55em"></li>
+                        <li style="margin-bottom: .45em">Almost all sequenced <em>C</em>. <em>difficile</em> strains possess
+                            a chemotaxis operon
+                        </li>
+                        <li style="margin-bottom: .55em">Analysis of motility requires observation of single cells
+                            <ul>
+                                <li style="font-size: .9em; margin-bottom: .45em">For example “run and tumble” in <em>E</em>.
+                                    <em>coli</em></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div style="float: right; width: 40%; align-items: center; display: table; justify-content: center; height: 450px; margin: auto">
+                    <img src="resources/chemtaxsys_light.png" alt style="background:none; border:none; box-shadow:none; height: 200px">
+                    <img src="resources/Ecoli_Tumbling.png" alt style="background:none; border:none; box-shadow:none; height: 250px">
+                </div>
+                <aside class="notes">
+                    Directed motility: needs to be faster than osmosis<br>
+                    The main chemotaxis machinery (MCP, CheA, CheY) is needed for signal sensing and transduction<br>
+                    Flagellar motility is a requirement for chemotaxis<br>
+                </aside>
+            </section>
+
+            <section>
+                <div style="height: 700px; vertical-align: center">
+                    <img data-src="resources/chemtaxsys_whiteBG.png" alt
+                         style="background:none; border:none; box-shadow:none;">
+                </div>
+            </section>
         </section>
 
 
@@ -326,6 +343,14 @@
         </section>
 
         <section>
+            <div style="position: relative; height: 720px; left: -612px;">
+                <img src="resources/mot_model1.png" alt style="position: absolute; background:none; border:none; box-shadow:none;">
+                <img src="resources/mot_model2.png" class="fragment" alt style="position: absolute; background:none; border:none; box-shadow:none;">
+                <img src="resources/mot_model3.png" class="fragment" alt style="position: absolute; background:none; border:none; box-shadow:none;">
+            </div>
+        </section>
+
+        <section>
             <div style="margin: auto; width: 1000px; text-align: center"> <!-- text-shadow: 1px 1px 1px black; -->
                 <h3 style="color: darkorange">Thank you for your Attention</h3>
             </div>
@@ -374,12 +399,6 @@
             <div style="font-size:.7em; ">
                 <p>This Project was funded by the Federal State of Lower&nbsp;Saxony<br>
                     Niedersächsisches Vorab (VWZN2889/3215/3266)</p>
-            </div>
-        </section>
-        <section>
-            <div style="height: 700px; vertical-align: center">
-                <img data-src="resources/chemtaxsys_whiteBG.png" alt
-                     style="background:none; border:none; box-shadow:none;">
             </div>
         </section>
     </div>
